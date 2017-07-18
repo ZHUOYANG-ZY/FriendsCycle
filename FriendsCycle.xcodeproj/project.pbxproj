@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844317241F1DD15D0032FE83 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443171D1F1DD15D0032FE83 /* UITableView+FDIndexPathHeightCache.m */; };
+		844317251F1DD15D0032FE83 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443171F1F1DD15D0032FE83 /* UITableView+FDKeyedHeightCache.m */; };
+		844317261F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844317211F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCell.m */; };
+		844317271F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 844317231F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		8443172C1F1DD2090032FE83 /* commentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443172A1F1DD2090032FE83 /* commentTableViewCell.m */; };
+		8443172D1F1DD2090032FE83 /* commentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443172B1F1DD2090032FE83 /* commentTableViewCell.xib */; };
+		844317311F1DD23F0032FE83 /* CommentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443172F1F1DD23F0032FE83 /* CommentCollectionViewCell.m */; };
+		844317321F1DD23F0032FE83 /* CommentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844317301F1DD23F0032FE83 /* CommentCollectionViewCell.xib */; };
 		8464ACDA1F15E7D90022A340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464ACD91F15E7D90022A340 /* main.m */; };
 		8464ACDD1F15E7D90022A340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464ACDC1F15E7D90022A340 /* AppDelegate.m */; };
 		8464ACE01F15E7D90022A340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464ACDF1F15E7D90022A340 /* ViewController.m */; };
@@ -15,6 +23,9 @@
 		8464ACE81F15E7D90022A340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8464ACE61F15E7D90022A340 /* LaunchScreen.storyboard */; };
 		8464ACF31F15E7D90022A340 /* FriendsCycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464ACF21F15E7D90022A340 /* FriendsCycleTests.m */; };
 		8464ACFE1F15E7D90022A340 /* FriendsCycleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464ACFD1F15E7D90022A340 /* FriendsCycleUITests.m */; };
+		8464AD101F15E96F0022A340 /* FriendsCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464AD0F1F15E96F0022A340 /* FriendsCycleViewController.m */; };
+		8464AD141F15EE470022A340 /* CycleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464AD121F15EE470022A340 /* CycleViewCell.m */; };
+		8464AD151F15EE470022A340 /* CycleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8464AD131F15EE470022A340 /* CycleViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8443171C1F1DD15D0032FE83 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		8443171D1F1DD15D0032FE83 /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		8443171E1F1DD15D0032FE83 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		8443171F1F1DD15D0032FE83 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		844317201F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		844317211F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		844317221F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		844317231F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		844317291F1DD2090032FE83 /* commentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commentTableViewCell.h; sourceTree = "<group>"; };
+		8443172A1F1DD2090032FE83 /* commentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = commentTableViewCell.m; sourceTree = "<group>"; };
+		8443172B1F1DD2090032FE83 /* commentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = commentTableViewCell.xib; sourceTree = "<group>"; };
+		8443172E1F1DD23F0032FE83 /* CommentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCollectionViewCell.h; sourceTree = "<group>"; };
+		8443172F1F1DD23F0032FE83 /* CommentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCollectionViewCell.m; sourceTree = "<group>"; };
+		844317301F1DD23F0032FE83 /* CommentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCollectionViewCell.xib; sourceTree = "<group>"; };
+		844317331F1DDB0A0032FE83 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8464ACD51F15E7D90022A340 /* FriendsCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8464ACD91F15E7D90022A340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8464ACDB1F15E7D90022A340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,11 @@
 		8464ACF91F15E7D90022A340 /* FriendsCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8464ACFD1F15E7D90022A340 /* FriendsCycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCycleUITests.m; sourceTree = "<group>"; };
 		8464ACFF1F15E7D90022A340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8464AD0E1F15E96F0022A340 /* FriendsCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsCycleViewController.h; sourceTree = "<group>"; };
+		8464AD0F1F15E96F0022A340 /* FriendsCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsCycleViewController.m; sourceTree = "<group>"; };
+		8464AD111F15EE470022A340 /* CycleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleViewCell.h; sourceTree = "<group>"; };
+		8464AD121F15EE470022A340 /* CycleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleViewCell.m; sourceTree = "<group>"; };
+		8464AD131F15EE470022A340 /* CycleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +109,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8443171B1F1DD15D0032FE83 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8443171C1F1DD15D0032FE83 /* UITableView+FDIndexPathHeightCache.h */,
+				8443171D1F1DD15D0032FE83 /* UITableView+FDIndexPathHeightCache.m */,
+				8443171E1F1DD15D0032FE83 /* UITableView+FDKeyedHeightCache.h */,
+				8443171F1F1DD15D0032FE83 /* UITableView+FDKeyedHeightCache.m */,
+				844317201F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCell.h */,
+				844317211F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCell.m */,
+				844317221F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCellDebug.h */,
+				844317231F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCellDebug.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		844317281F1DD1D30032FE83 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8464AD111F15EE470022A340 /* CycleViewCell.h */,
+				8464AD121F15EE470022A340 /* CycleViewCell.m */,
+				8464AD131F15EE470022A340 /* CycleViewCell.xib */,
+				844317291F1DD2090032FE83 /* commentTableViewCell.h */,
+				8443172A1F1DD2090032FE83 /* commentTableViewCell.m */,
+				8443172B1F1DD2090032FE83 /* commentTableViewCell.xib */,
+				8443172E1F1DD23F0032FE83 /* CommentCollectionViewCell.h */,
+				8443172F1F1DD23F0032FE83 /* CommentCollectionViewCell.m */,
+				844317301F1DD23F0032FE83 /* CommentCollectionViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		8464ACCC1F15E7D90022A340 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +163,8 @@
 		8464ACD71F15E7D90022A340 /* FriendsCycle */ = {
 			isa = PBXGroup;
 			children = (
+				844317281F1DD1D30032FE83 /* view */,
+				8443171B1F1DD15D0032FE83 /* Classes */,
 				8464ACDB1F15E7D90022A340 /* AppDelegate.h */,
 				8464ACDC1F15E7D90022A340 /* AppDelegate.m */,
 				8464ACDE1F15E7D90022A340 /* ViewController.h */,
@@ -110,6 +174,9 @@
 				8464ACE61F15E7D90022A340 /* LaunchScreen.storyboard */,
 				8464ACE91F15E7D90022A340 /* Info.plist */,
 				8464ACD81F15E7D90022A340 /* Supporting Files */,
+				8464AD0E1F15E96F0022A340 /* FriendsCycleViewController.h */,
+				8464AD0F1F15E96F0022A340 /* FriendsCycleViewController.m */,
+				844317331F1DDB0A0032FE83 /* PrefixHeader.pch */,
 			);
 			path = FriendsCycle;
 			sourceTree = "<group>";
@@ -207,6 +274,7 @@
 				TargetAttributes = {
 					8464ACD41F15E7D90022A340 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8AGFX5K85W;
 						ProvisioningStyle = Automatic;
 					};
 					8464ACED1F15E7D90022A340 = {
@@ -246,7 +314,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844317321F1DD23F0032FE83 /* CommentCollectionViewCell.xib in Resources */,
 				8464ACE81F15E7D90022A340 /* LaunchScreen.storyboard in Resources */,
+				8464AD151F15EE470022A340 /* CycleViewCell.xib in Resources */,
+				8443172D1F1DD2090032FE83 /* commentTableViewCell.xib in Resources */,
 				8464ACE51F15E7D90022A340 /* Assets.xcassets in Resources */,
 				8464ACE31F15E7D90022A340 /* Main.storyboard in Resources */,
 			);
@@ -273,8 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844317311F1DD23F0032FE83 /* CommentCollectionViewCell.m in Sources */,
+				8464AD141F15EE470022A340 /* CycleViewCell.m in Sources */,
+				8443172C1F1DD2090032FE83 /* commentTableViewCell.m in Sources */,
+				844317261F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				844317271F1DD15D0032FE83 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				8464ACE01F15E7D90022A340 /* ViewController.m in Sources */,
+				8464AD101F15E96F0022A340 /* FriendsCycleViewController.m in Sources */,
+				844317241F1DD15D0032FE83 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				8464ACDD1F15E7D90022A340 /* AppDelegate.m in Sources */,
+				844317251F1DD15D0032FE83 /* UITableView+FDKeyedHeightCache.m in Sources */,
 				8464ACDA1F15E7D90022A340 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,10 +505,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8AGFX5K85W;
+				GCC_PREFIX_HEADER = /Users/kede/GitHub/FriendsCycle/FriendsCycle/PrefixHeader.pch;
 				INFOPLIST_FILE = FriendsCycle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jinyueyang.FriendsCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -437,10 +520,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8AGFX5K85W;
+				GCC_PREFIX_HEADER = /Users/kede/GitHub/FriendsCycle/FriendsCycle/PrefixHeader.pch;
 				INFOPLIST_FILE = FriendsCycle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jinyueyang.FriendsCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -509,6 +596,7 @@
 				8464AD041F15E7D90022A340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8464AD051F15E7D90022A340 /* Build configuration list for PBXNativeTarget "FriendsCycleTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +605,7 @@
 				8464AD071F15E7D90022A340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8464AD081F15E7D90022A340 /* Build configuration list for PBXNativeTarget "FriendsCycleUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +614,7 @@
 				8464AD0A1F15E7D90022A340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
